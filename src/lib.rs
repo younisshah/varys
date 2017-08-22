@@ -24,6 +24,6 @@ pub fn shorten(url: &'static str) -> String {
     let mut response = reqwest::get(url).unwrap();
     assert!(response.status().is_success());
     let mut body = String::new();
-    response.read_to_string(&mut body);
+    response.read_to_string(&mut body).unwrap();
     body
 }
