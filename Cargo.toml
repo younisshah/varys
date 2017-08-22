@@ -1,0 +1,12 @@
+[package]
+name = "varys"
+version = "0.1.0"
+description = "Shorten a URL"
+homepage = "https://github.com/younisshah/varys"
+documentation = "https://github.com/younisshah/varys"
+license = "MIT"
+readme = "README.md"
+authors = ["Younis Shah <younisashah@gmail.com>"]
+
+[dependencies]
+reqwest = "0.7.3"
